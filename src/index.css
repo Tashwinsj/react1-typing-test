@@ -1,13 +1,108 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bod{
+   display: flex;
+   width: 1450px; 
+   height: 100vh;
+ 
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  background-image: url("webbackground.jpeg");
+  background-size: cover;
+  
+}
+h1{
+  color: white;
+  margin: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+  color: white;
+  font-family: monospace;
+  font-size: 19px;
+}
+.btn{
+  width: 70px;
+  height: 70px;
+  align-self: center;
+  border: none;
+  margin: 10px;
+  color: rgb(41, 41, 147);
+  background-color: paleturquoise;
+  border-radius: 20px;
+   
+}
+.inp{
+  width: 300px;
+  height: 70px ;
+  align-self: center;
+  border-radius: 10px;
+   font-size: 30px;
+   margin: 10px;
+}
+.wordsblock{
+  padding: 10px;
+  display: flex ; 
+ flex-direction: row;
+  
+  flex-wrap: wrap;
+  
+  height: 250px; 
+  width: 800px ;
+  background-color: lightblue;
+  align-self: center;
+  margin: 20px; 
+  border-radius: 20px;
+   
+}
+.wblock{
+  background-color: white;
+  margin: 5px;
+  height: 30px;
+  border-radius: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-weight: 600;
+  padding-top: 6px;
+  font-family: monospace;
+  font-size: larger;
+}
+.flxbox{
+  display: flex;
+  float: left;
+  justify-content: center;
+  justify-items: center;
+}
+.timebox{
+  width: 70px;
+  height: 50px;
+   
+  border: none;
+  background-color: paleturquoise;
+  border-radius: 20px;
+  justify-self: center ; 
+  justify-content: center;
+  margin: 10px;
+  color: rgb(41, 41, 147);
+  padding-top: 20px ; 
+  font-weight: bolder;
+  font-size: larger;
+}
+.result{
+  align-self: center; 
+  justify-content: center;
+  display: flex;
+  align-items: center; 
+  height: 120px ;
+  width: 150px ;
+  background-color: white;
+  margin-left: 330px;
+  border-radius: 10px;
+  font-size: xx-large;
+  text-align: center;
+  font-weight: bolder;
 }
